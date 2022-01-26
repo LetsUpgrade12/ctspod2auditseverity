@@ -15,12 +15,8 @@ import com.cognizant.repository.RequestRepository;
 import com.cognizant.repository.ResponseRepository;
 
 @SpringBootTest
-@service
 public class AuditRequestResponseTest {
-	@autowired
-	private RequestRepository requestRepossitory
-	@autowired
-    private ResponseRepository responseRepossitory      
+
 	@Mock
 	RequestRepository requestRepository;
 	@Mock
