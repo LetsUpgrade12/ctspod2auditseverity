@@ -15,13 +15,10 @@ import com.cognizant.repository.ResponseRepository;
  * 
  *
  */
-@Service
+
 public class AuditRequestResponse {
 
-	@Autowired
-	private RequestRepository requestRepository;
-	@Autowired
-	private ResponseRepository responseRepository;
+	
 
 	/**
 	 * 
